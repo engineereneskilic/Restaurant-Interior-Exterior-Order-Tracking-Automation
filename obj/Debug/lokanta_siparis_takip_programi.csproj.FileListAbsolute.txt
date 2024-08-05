@@ -1,0 +1,68 @@
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\lokanta_siparis_takip_programi.csprojResolveAssemblyReference.cache
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.giris.resources
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.Properties.Resources.resources
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\lokanta_siparis_takip_programi.csproj.GenerateResource.Cache
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\MaterialSkinExample.exe.config
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\MaterialSkinExample.exe
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\MaterialSkinExample.pdb
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\MaterialSkin.dll
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\MaterialSkin.pdb
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.exe
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.pdb
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.anasayfa.resources
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.fatura_olustur.resources
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.resimlerim.resources
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\EntityFramework.dll
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\EntityFramework.xml
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.odeme.resources
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\MaterialSkinExample.exe.config
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.exe
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.pdb
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\lokanta_siparis_takip_programi.csprojResolveAssemblyReference.cache
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.anasayfa.resources
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.fatura_olustur.resources
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.giris.resources
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.odeme.resources
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.Properties.Resources.resources
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.resimlerim.resources
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\lokanta_siparis_takip_programi.csproj.GenerateResource.Cache
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\MaterialSkinExample.exe
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\MaterialSkinExample.pdb
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\EntityFramework.dll
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\MaterialSkin.dll
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\MaterialSkin.pdb
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\EntityFramework.xml
+C:\Users\Enes\Desktop\LOKAN SİPARİŞ TAKİP KOPYALAR\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.menu_item_ekle.resources
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.yesno_Messagebox.resources
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.olumlu_olumsuz_MessegeBox.resources
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.garson_listele_ekle.resources
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.kullanicilar.resources
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\MaterialSkinExample.exe.config
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\MaterialSkinExample.exe
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\MaterialSkinExample.pdb
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\EntityFramework.dll
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\MaterialSkin.dll
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\MaterialSkin.pdb
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\EntityFramework.xml
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\lokanta_siparis_takip_programi.csprojAssemblyReference.cache
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.anasayfa.resources
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.fatura_olustur.resources
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.garson_listele_ekle.resources
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.giris.resources
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.kullanicilar.resources
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.menu_item_ekle.resources
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.odeme.resources
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.olumlu_olumsuz_MessegeBox.resources
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.resimlerim.resources
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.yesno_Messagebox.resources
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.Properties.Resources.resources
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\lokanta_siparis_takip_programi.csproj.GenerateResource.cache
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\lokanta_siparis_takip_programi.csproj.CopyComplete
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.exe
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkinExample\obj\Debug\MaterialSkinExample.pdb

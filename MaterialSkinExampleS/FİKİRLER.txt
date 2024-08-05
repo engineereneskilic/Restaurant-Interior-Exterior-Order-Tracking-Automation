@@ -1,0 +1,10 @@
+1-Yemekl yendikten sonra ödenecek hesabýn fiþi gerçek fiþ gibi pdf olarak basýlcak tmm
+2-kdv uygula
+3- hesabý öderken nasý ödiyeceðini sor en son fiþ kes bu oldu gibi
+4-Personel/Menü Ýþlemleri ANA TABI EKLE
+5- radyo ekle
+
+
+<add name="MaterialSkinExample.Properties.Settings.lokanta_siparis_takip_programiConnectionString" connectionString="Data Source=ENES-BILGISAYAR;Initial Catalog=lokanta_siparis_takip_programi;Integrated Security=True" providerName="System.Data.SqlClient" />
+
+Persist Security Info=true

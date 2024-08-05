@@ -1,0 +1,12 @@
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkin\bin\Debug\MaterialSkin.dll
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkin\bin\Debug\MaterialSkin.pdb
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkin\obj\Debug\MaterialSkin.Properties.Resources.resources
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkin\obj\Debug\MaterialSkin.csproj.GenerateResource.Cache
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkin\obj\Debug\MaterialSkin.dll
+C:\Users\Enes\Desktop\lokanta_siparis_takip_programi\MaterialSkin\obj\Debug\MaterialSkin.pdb
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkin\bin\Debug\MaterialSkin.dll
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkin\bin\Debug\MaterialSkin.pdb
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkin\obj\Debug\MaterialSkin.Properties.Resources.resources
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkin\obj\Debug\MaterialSkin.csproj.GenerateResource.cache
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkin\obj\Debug\MaterialSkin.dll
+C:\Users\enesk\Desktop\ÜNİVERSİTE\1.SENE\1.sınıf 2.dönem\Görsel Programlama\lokanta_siparis_takip_programi\MaterialSkin\obj\Debug\MaterialSkin.pdb

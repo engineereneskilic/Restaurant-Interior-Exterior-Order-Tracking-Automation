@@ -1,131 +1,46 @@
-MaterialSkin for .NET WinForms
-=====================
 
-Theming .NET WinForms, C# or VB.Net, to Google's Material Design Principles.
+1-GİRİŞ FORMU
+Programda Hazır Material Skin Temalarından kullandım .Programım ilk önce giriş formu ile açılıyor bu formda daha önceden  veritabanına kaydettiğim kullanıcı bilgileri ve güvenlik kodunu girerek giriş yapılıyor eğer yanlış kullanıcı adı ve şifre girilirse hata mesajı gösteriliyor yine güvenlik kodu içinde ayrı şekilde mesaj gösteriliyor. Doğru girilirse anasayfa formuna yönlendiriliyor.
+1-ANASAYFA FORMU
+a-İç Siparişler Tabı
+Karşımıza 3 ana başlık altında gruplar beliriyor.1 gurupta  “Seçilen Masa” başlığı altında “Masa İşlemleri” ve “Siparişler” Tablarından oluşan tabgroup geliyor. Masa işlemlerinde hiç masa seçilmediyse form yüklendiğinde tabi seçilmemiş olucak firmanın logosu gözücek , eğer masa seçildiyse seçilen masanın resmi ile beraber numarasının da olduğu bir resim gelicek yani logo gidicek.(Seçilen masanın resminden kastım masa açıksa dolu masa resmi kapalıysa boş masa resmi gelicek).Siparişler tabında ise seçilen o masaya ait siparişlerin olduğu liste gözükecek.Tab grubunun hemen altında Toplam Tutarın TL cinsinden yazıldığı bölüm var.Bu bölümde anlık olarak değişen siparişlere göre toplam tutarın da değişmesi sağlanıyor. Orta tarafta ise masalarımızı görüyoruz.Bu masalarda kahverengi ve yeşil iki renkte benzer resim görüceksiniz bu resimler masanın durumuna göre değişir. Eğer müşteri geldiyse  gelen müşterinin masası seçilir ve “Masa Aç” buttonu ile masası aktif hale gelir. Seçilen masa bilgilerinin olduğu Masa işlemlerindeki resim ve orta kısımda bulunan masalar içindeki seçtiğiniz masanın resimlerinin aynı anda değiştiğini ve yeşil görünümlü  olduklarını görüceksiniz.Ayrıca Masa işlemlerindeki resmin üstünde de seçtiğiniz masa numarası gözükecek. Artık sipariş almaya hazırsınız.Şimdi de en sağda bulunan “MENÜ” başlığı altında bulunan tabgrouplardan hangi menü tabını seçeceğinize karar veriyorsunuz ardından gelen listeden istediğiniz siparişin solunda bulunan chechkboxı işaretliyorsunuz ve programın en solunda bulunan sipariş listesine seçtiğiniz siparişin eklendiğini görüyorsunuz ama ben bir tane daha sipariş etmek isteyebilirim diyebilirsiniz eğer tek müşteri gelmediyse bir masa yani örneğin 4 kişilik masamızda 4 kişide varsa 4 çorba sipariş edebilirler o zamanda chechboxu işaretledikten sonra sipariş isminin üzerine ters tıklayarak arttir buttonunu  seçmemiz yeterli olcaktır.Böylelikle sipariş listemizde adet kısmına bir tane daha aynı siparişten sipariş edebilirsiniz ama müşteri dediki ben bir çorbayı iptal edicem hemen o çorbanın üstüne ters tık yapıp azalt butonuna basarsanız sipariş listenizde o çorbanın düştüğünü görüceksiniz.(Aynı zamanda toplam tutarında değiştiğini görüceksiniz.). Tabiki müşteriler çorbayla kalmicak başka çeşit şeylerde yemek içmek istiyiceklerdir yine aynı olay ile müşterilerin siparişlerini alabilirsiniz.Aynı zamanda sağ en üstte bugünün tarihini sağ en altta ise kullanıcı adınızı görceksiniz.Peki müşteriler masadan ayrılmak isterlerse ne yapmanız gerekiyor gayet basit kapatmak istediğiniz masayı seçip masa kapat buttonuna bastığınızda sipariş listenizin boşaldığını aynı zamanda da toplam tutarında sıfırlandığını görceksiniz.Tabi bundan önce hesabı al buttonuna basmalısınız ki fatura kesilsin. Ödeme sayfasına yönlendirildiğimizde bize ilgili masadaki müşterilerin verdikleriği tüm siparişleri gösteren bir listeyle ve ödeme yöntemi kısımlarıyla karşılaşıyoruz. Ödeme yöntemini seçip “Ödemeyi Al” butonuna tıkladığımızda karşımıza tekrar yeni bir form gelicek ve burda ise bir faturayla karşılaşıcağız.Fatura bildiğimiz gibi hangi üründen kaç tane alındığı kimin sattığı kaç adet sattığı nasıl ödeme yapıldığı gibi kısımlardan oluşuyor.İstersek yazıcı butonuna basıp yazıcıdan çıktı alıyoruz istersek kaydediyoruz.
+b-Dış Siparişler Tabı
+Buraya kadar olan kısımda hep “İç Siparişler” Tabını yani kısmını anlattık.Şimdi “Dış Sıparişler” kısmına geçelim..
+Dış siparişler kısmıda aynı iç siparişlere benzer aslında masalar yerine bu sefer telefon var ve ayrıca müşteri lokanta içinden olmadığı için ona siparişi ulaştırıcak bilgileri mevcut.Bu bilgiler telefon numarası, adres(adres içinde müşterinin adı yada firmanın adı yer alabilir) ve siparişin teslimatını yapıcak program kullanıcılarının yani garsonların bulunduğu combobox bulunuyor.Bu comboboxtan garson seçerek siparişimin teslitamatını yapıyoruz.Burası da iç siparişler kısmı ile aynı mantıkla çalıştığı için raporun uzamaması açısından anlatmıyorum. Rezervasyon kısmına geçiyorum.
+c-Rezervasyon Tabı
+Rezervasyon kısmında sol tarafta müşterinin rezervasyon bilgileri sağ tarafta ise tüm rezervasyonların listesini, listenin üst tarafında da isime ve telefon numarasına göre arama özeliğinin bulunduğunu görmekteyiz.Rezervasyonda bir yanlışlık yapıldığı zaman ilgili rezervasyona liste üzerinden tıkladığımız zaman rezervasyon bilgilerinin sol taraftaki forma yüklendiğini butonunda güncelle butonu olarak değiştini görüceksiniz.
+d-Garson Menü İşlemleri Tabı
+1.Kısım : Birinci kısımda bahsettiğim yer menü gruplarının ve onlara bağlı menü içeriğinin olduğu kısım. Düzenlemek istediğimiz menünün butonuna tıklıyoruz sağ taraf taraftaki listenin de aynı anda güncellendiğini görüyoruz. Bu listede listelene elemanları güncellemek istediğimiz zaman ilgi textboxa gelip değişiklik yapmamız yeterli olucaktır. Yani textboxta yaptığınız en ufak bir değişiklikte veritabanına kaydediyor fakat textboxda hiç boş değer olmaz ise program kaydı silmek istediğini düşünüyor ama silmeden size soruyor, sileyim mi? Yoksa silmeyeyim mi ? şeklinde.Peki Yeni bir içerik eklemek istersek ne yapıcağız? Çok basit.İstediğimiz menü grubunun butonuna tıkladğımızda içerik yüklendikten sonra listenin alt tarafında bulunan “Ekle” butonuna bastığımızda karşımıza bir form gelicek. Ekliyeceğiniz ürünün ismini ve fiyatını girmeniz istenicek girdikten sonra ürünü ekliyoruz tabi boş geçmemeye dikkat edin.Eğer boş geçerseniz  uyarı messageboxu bu normal Windows messageboxu değil kendim formla oluşturdum.
+2.Kısım : İkinci kısım ise garsonların yani kullanıcıların resimleriyle beraber listesinin bulunduğu kısım. İsimlerinin bulunduğu butonlara tıklandığında kullanıcıların kişisel bilgilerinin bulunduğu ve tekrar resimlerinin güncelleneceği kısım.Burada istediğiniz bilgiyi güncelleyebilirsiniz fakat doğru formatlarda ve boş geçmemeniz gerektiğini unutmayın aksi takdirde form kaydedilmeyecek veya güncellenmeyecek ve uyarı alıcaksınız. Nerede ne hatası olduğu ile ilgili.Garson listemizin alt tarafında “Yenile” butonu garson listesini yeniler.”Ekle” butonu ise yeni bir garson eklemenize olanak sağlar.Yeni garson ekleme ve var olan garsonu güncelleme işlemi aynı form üzerinden yapılmakta ve gereksiz form israfına ve uğraşına gerek duyulmaksızın işlemlerimizi istenilen olaya göre düzenlemekte.
+SON OLARAK…
+Otomasyonu olabilecek en sade haliyle açıklayama çalıştım. Diğer yardımcı formlara ayrı ayrı yer vermeden raporun kısa ve öz olması açısından..
+Raporumu incelediğiniz için teşekkür ederim…
+												
+16010501004 Enes KILIÇ
+ 
+ 
 
-*Notice: this project is no longer under active development. Though, contributions are still welcome and the community will likely still help if you open an issue.*
 
-<a href="https://www.youtube.com/watch?v=A8osVM_SXlg" target="_blank">![alt tag](http://i.imgur.com/JAttoOo.png)</a>
 
-*High quality images can be found at the bottom of this page.*
+		
+										
 
----
 
-#### Current state of the MaterialSkin components
- | Supported | Dark & light version | Disabled mode | Animated
---- | --- | --- | --- | ---
-Checkbox | Yes | Yes | Yes | Yes 
-Divider | Yes | Yes | N/A | N/A 
-Flat Button | Yes | Yes | Yes | Yes 
-Label | Yes | Yes | N/A | N/A
-Radio Button | Yes | Yes | Yes | Yes
-Raised Button | Yes | Yes | Yes | Yes 
-Single-line text field | Yes | Yes | No | Yes
-TabControl | Yes | N/A | N/A | Yes
-ContextMenuStrip | Yes | Yes | Yes | Yes
-ListView | Yes | Yes | No | No
-ProgressBar | Yes | Yes | No | No 
-FloatingActionButton | No | No | No | No
-Dialogs | No | No | No | No
-Switch | No | No | No | No
-More... | No | No | No | No
 
----
 
-#### Implementing MaterialSkin in your application
 
-**1. Add the library to your project**
 
-  You can do this on multiple ways. The easiest way would be adding the [NuGet Package](https://www.nuget.org/packages/MaterialSkin/). Right click on your project and click 'Manage NuGet Packages...'. Search for 'MaterialSkin' and click on install. Once installed the library will be included in your project references. (Or install it through the package manager console: PM> Install-Package MaterialSkin)
 
-Another way of doing this step would be cloning the project from GitHub, compiling the library yourself and adding it as a reference.
-  
-**2. Add the MaterialSkin components to your ToolBox**
 
-  If you have installed the NuGet package, the MaterialSkin.dll file should be in the folder //bin/Debug. Simply drag the MaterialSkin.dll file into your IDE's ToolBox and all the controls should be added there.
-  
-**3. Inherit from MaterialForm**
 
-  Open the code behind your Form you wish to skin. Make it inherit from MaterialForm rather than Form. Don't forget to put the library in your imports, so it can find the MaterialForm class!
-  
-  C# (Form1.cs)
-  ```cs
-  public partial class Form1 : MaterialForm
-  ```
-  
-  VB.NET (Form1.Designer.vb)
-  ```vb
-  Partial Class Form1
-    Inherits MaterialSkin.Controls.MaterialForm
-  ```
-  
-**4. Initialize your colorscheme**
 
-  Set your preferred colors & theme. Also add the form to the manager so it keeps updated if the color scheme or theme changes later on.
 
-C# (Form1.cs)
-  ```cs
-  public Form1()
-  {
-      InitializeComponent();
 
-      var materialSkinManager = MaterialSkinManager.Instance;
-      materialSkinManager.AddFormToManage(this);
-      materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-      materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
-  }
-  ```
 
-VB.NET (Form1.vb)
-```vb
-Imports MaterialSkin
 
-Public Class Form1
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim SkinManager As MaterialSkinManager = MaterialSkinManager.Instance
-        SkinManager.AddFormToManage(Me)
-        SkinManager.Theme = MaterialSkinManager.Themes.LIGHT
-        SkinManager.ColorScheme = New ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE)
-    End Sub
-End Class
-```
 
----
 
-#### Material Design in WPF
 
-If you love .NET and Material Design, you should definitely check out [Material Design Xaml Toolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit) by ButchersBoy. It's a similar project but for WPF instead of WinForms.
+	
 
----
-
-#### Contact
-
-If you wish to contact me for anything you can get in touch at:
-
-- Twitter: https://twitter.com/Ignace_Maes
-- Personal Website: http://ignacemaes.com
-
----
-
-#### Images
-
-![alt tag](http://i.imgur.com/Ub0N9Xf.png)
-
-*A simple demo interface with MaterialSkin components.*
-
-![alt tag](http://i.imgur.com/eIAtRkc.png)
-
-*The MaterialSkin checkboxes.*
-
-![alt tag](http://i.imgur.com/sAPyvdH.png)
-
-*The MaterialSkin radiobuttons.*
-
-![alt tag](http://i.imgur.com/3Zpuv6x.png)
-
-*The MaterialSkin ListView.*
-
-![alt tag](http://i.imgur.com/07MrJZQ.png)
-
-*MaterialSkin using a custom color scheme.*

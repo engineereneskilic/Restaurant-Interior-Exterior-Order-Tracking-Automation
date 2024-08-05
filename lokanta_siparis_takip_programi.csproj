@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{47409AA5-62AE-4189-8E83-C471502DF5E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MaterialSkinExample</RootNamespace>
+    <AssemblyName>MaterialSkinExample</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="anasayfa.Designer.cs">
+      <DependentUpon>anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fatura_olustur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fatura_olustur.Designer.cs">
+      <DependentUpon>fatura_olustur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="garson_listele_ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="garson_listele_ekle.Designer.cs">
+      <DependentUpon>garson_listele_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="giris.Designer.cs">
+      <DependentUpon>giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kullanicilar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kullanicilar.resx</DependentUpon>
+    </Compile>
+    <Compile Include="menu_item_ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu_item_ekle.Designer.cs">
+      <DependentUpon>menu_item_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Contexts\anayemeklerDbContext.cs" />
+    <Compile Include="Model\Contexts\anliksiparisler_masalarDbContext.cs" />
+    <Compile Include="Model\Contexts\anliksiparisler_telefonlarDbContext.cs" />
+    <Compile Include="Model\Contexts\corbalarDbContext.cs" />
+    <Compile Include="Model\Contexts\iceceklerDbContext.cs" />
+    <Compile Include="Model\Contexts\kebaplarDbContext.cs" />
+    <Compile Include="Model\Contexts\kullanicilarDbContext.cs" />
+    <Compile Include="Model\Contexts\masalarDbContext.cs" />
+    <Compile Include="Model\Contexts\programGirisleriDbContext.cs" />
+    <Compile Include="Model\Contexts\rezervasyonlarDbContext.cs" />
+    <Compile Include="Model\Contexts\salatalarDbContext.cs" />
+    <Compile Include="Model\Contexts\tatlilarDbContext.cs" />
+    <Compile Include="Model\Contexts\telefonlarDbContext.cs" />
+    <Compile Include="Model\Entitiy\anayemek.cs" />
+    <Compile Include="Model\Entitiy\anliksiparis_masa.cs" />
+    <Compile Include="Model\Entitiy\anliksiparis_telefon.cs" />
+    <Compile Include="Model\Entitiy\corba.cs" />
+    <Compile Include="Model\Entitiy\icecek.cs" />
+    <Compile Include="Model\Entitiy\kebap.cs" />
+    <Compile Include="Model\Entitiy\kullanici.cs" />
+    <Compile Include="Model\Entitiy\masa.cs" />
+    <Compile Include="Model\Entitiy\programGirisi.cs" />
+    <Compile Include="Model\Entitiy\rezervasyon.cs" />
+    <Compile Include="Model\Entitiy\salata.cs" />
+    <Compile Include="Model\Entitiy\tatli.cs" />
+    <Compile Include="Model\Entitiy\telefon.cs" />
+    <Compile Include="odeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="odeme.Designer.cs">
+      <DependentUpon>odeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="olumlu_olumsuz_MessegeBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="olumlu_olumsuz_MessegeBox.Designer.cs">
+      <DependentUpon>olumlu_olumsuz_MessegeBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="resimlerim.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>resimlerim.resx</DependentUpon>
+    </Compile>
+    <Compile Include="yesno_Messagebox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yesno_Messagebox.Designer.cs">
+      <DependentUpon>yesno_Messagebox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ortak_degiskenler_classlar.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="anasayfa.resx">
+      <DependentUpon>anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fatura_olustur.resx">
+      <DependentUpon>fatura_olustur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="garson_listele_ekle.resx">
+      <DependentUpon>garson_listele_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="giris.resx">
+      <DependentUpon>giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kullanicilar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>kullanicilar.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu_item_ekle.resx">
+      <DependentUpon>menu_item_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="odeme.resx">
+      <DependentUpon>odeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="olumlu_olumsuz_MessegeBox.resx">
+      <DependentUpon>olumlu_olumsuz_MessegeBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resimlerim.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>resimlerim.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yesno_Messagebox.resx">
+      <DependentUpon>yesno_Messagebox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MaterialSkin\MaterialSkin.csproj">
+      <Project>{8eb7611b-68cd-4b8b-987a-11717e2b250c}</Project>
+      <Name>MaterialSkin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arkaplan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dolar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Messages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarkan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lale_kirazli.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nazli_kunduraci.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pelin_dagci.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rasim_kocayurek.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enes_kilic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tatlilar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tatlilar2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anayemekler.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anayemekler2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bosmasa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bostelefon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corbalar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corbalar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corbalar2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corbalar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\credit_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dolar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dolumasa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dolutelefon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eksi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icecekler.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icecekler2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kebaplar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kebaplar2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kucuk_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notepad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange-question-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salatalar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salatalar2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aysund asdf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hasibe_kilic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cem_yilmaz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emre_kilic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orhan_gencebay.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recep_tayyip_erdogan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kemal_dogulu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pelinsu_yilmaz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zuhal_topal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarkan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarik_akan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resim0001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nur_yerlitas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\acun_ilicali0.jpg" />
+    <Content Include="Resources\ahmet_gureli.jpg" />
+    <Content Include="Resources\ahmet_kural.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

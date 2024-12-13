@@ -1,4 +1,6 @@
 # Restaurant Interior-Exterior Order Tracking Automation
+![**Pre-Accounting Automation (Image)**](kucuk_logo.png)  
+
 
 ## Table of Contents
 1. [Project Overview](#project-overview)

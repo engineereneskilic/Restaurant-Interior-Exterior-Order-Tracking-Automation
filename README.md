@@ -1,6 +1,7 @@
 # Restaurant Interior-Exterior Order Tracking Automation
 ![**Pre-Accounting Automation (Image)**](logo.png)  
 
+- [User Manual (PDF)](UsageofRestaurantInterior-ExteriorOrderTrackingAutomation.pdf)
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
